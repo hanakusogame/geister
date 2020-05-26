@@ -1,0 +1,164 @@
+{
+	"width": 640,
+	"height": 360,
+	"fps": 30,
+	"main": "./script/main.js",
+	"assets": {
+		"main": {
+			"type": "script",
+			"path": "script/main.js",
+			"global": true
+		},
+		"ghost": {
+			"type": "image",
+			"width": 200,
+			"height": 240,
+			"path": "image/ghost.png"
+		},
+		"SelectE": {
+			"type": "script",
+			"path": "script/SelectE.js",
+			"global": true
+		},
+		"Ghost": {
+			"type": "script",
+			"path": "script/Ghost.js",
+			"global": true
+		},
+		"Map": {
+			"type": "script",
+			"path": "script/Map.js",
+			"global": true
+		},
+		"anchor": {
+			"type": "image",
+			"width": 80,
+			"height": 80,
+			"path": "image/anchor.png"
+		},
+		"ghost2": {
+			"type": "image",
+			"width": 220,
+			"height": 264,
+			"path": "image/ghost2.png"
+		},
+		"map": {
+			"type": "image",
+			"width": 110,
+			"height": 110,
+			"path": "image/map.png"
+		},
+		"img_numbers_n": {
+			"type": "image",
+			"width": 364,
+			"height": 64,
+			"path": "image/img_numbers_n.png"
+		},
+		"test": {
+			"type": "text",
+			"path": "text/test.json"
+		},
+		"help": {
+			"type": "image",
+			"width": 500,
+			"height": 360,
+			"path": "image/help.png"
+		},
+		"title": {
+			"type": "image",
+			"width": 500,
+			"height": 360,
+			"path": "image/title.png"
+		},
+		"helpbtn": {
+			"type": "image",
+			"width": 40,
+			"height": 40,
+			"path": "image/helpbtn.png"
+		},
+		"finish": {
+			"type": "image",
+			"width": 360,
+			"height": 150,
+			"path": "image/finish.png"
+		},
+		"start": {
+			"type": "image",
+			"width": 500,
+			"height": 150,
+			"path": "image/start.png"
+		},
+		"win": {
+			"type": "image",
+			"width": 500,
+			"height": 500,
+			"path": "image/win.png"
+		},
+		"bgm": {
+			"type": "audio",
+			"path": "audio/bgm",
+			"systemId": "music",
+			"duration": 52000
+		},
+		"bell": {
+			"type": "audio",
+			"path": "audio/bell",
+			"systemId": "sound",
+			"duration": 630
+		},
+		"knight": {
+			"type": "audio",
+			"path": "audio/knight",
+			"systemId": "sound",
+			"duration": 654
+		},
+		"se_move": {
+			"type": "audio",
+			"path": "audio/se_move",
+			"systemId": "sound",
+			"duration": 105
+		},
+		"se_start": {
+			"type": "audio",
+			"path": "audio/se_start",
+			"systemId": "sound",
+			"duration": 1701
+		},
+		"se_timeup": {
+			"type": "audio",
+			"path": "audio/se_timeup",
+			"systemId": "sound",
+			"duration": 1080
+		},
+		"zombie": {
+			"type": "audio",
+			"path": "audio/zombie",
+			"systemId": "sound",
+			"duration": 835
+		},
+		"king": {
+			"type": "audio",
+			"path": "audio/king",
+			"systemId": "sound",
+			"duration": 1437
+		}
+	},
+	"environment": {
+		"sandbox-runtime": "2",
+		"niconico": {
+			"supportedModes": [
+				"multi"
+			]
+		}
+	},
+	"globalScripts": [
+		"node_modules/@akashic-extension/akashic-timeline/lib/ActionType.js",
+		"node_modules/@akashic-extension/akashic-timeline/lib/Easing.js",
+		"node_modules/@akashic-extension/akashic-timeline/lib/Timeline.js",
+		"node_modules/@akashic-extension/akashic-timeline/lib/Tween.js",
+		"node_modules/@akashic-extension/akashic-timeline/lib/index.js"
+	],
+	"moduleMainScripts": {
+		"@akashic-extension/akashic-timeline": "node_modules/@akashic-extension/akashic-timeline/lib/index.js"
+	}
+}
